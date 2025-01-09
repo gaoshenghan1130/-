@@ -1,11 +1,19 @@
 <style>
     h1 {
-        font-family: "宋体", SimSun, serif !important;
-        font-size: 2em !important;
+        font-family: "华文楷体", "STKaiti", serif;
+        font-size: 6em !important;
         text-align: center;
         /* 水平居中 */
         font-weight: bold;
-        /* 加粗 */
+        margin-top: 370px !important;
+        align-items: center !important;
+    }
+
+    @media print {
+        h1 {
+            page-break-before: always !important;
+            align-items: center !important;
+        }
     }
 </style>
 
@@ -14,7 +22,12 @@
         font-family: "宋体", SimSun, serif !important;
         font-size: 1.2em !important;
         margin-top: 240px !important;
-        page-break-before: always;
+    }
+
+    @media print {
+        h2 {
+            page-break-before: always !important;
+        }
     }
 </style>
 
@@ -61,7 +74,7 @@
 <style>
     comment {
         font-family: "宋体", SimSun, serif !important;
-        font-size: 0.7em !important;
+        font-size: 0.7em;
     }
 </style>
 
@@ -70,5 +83,6 @@
         font-family: "华文楷体", "STKaiti", serif !important;
         font-size: 1.1em !important;
         font-weight: bold !important;
+        margin-top: 80px !important;
     }
 </style>
