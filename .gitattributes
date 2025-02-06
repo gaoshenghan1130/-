@@ -1,1 +1,7 @@
 *.png filter=lfs diff=lfs merge=lfs -text
+books/沪教版数学选择性必修第一册.pdf filter=lfs diff=lfs merge=lfs -text
+books/沪教版数学选择性必修第三册.pdf filter=lfs diff=lfs merge=lfs -text
+books/沪教版数学必修第一册.pdf filter=lfs diff=lfs merge=lfs -text
+books/沪教版数学必修第三册.pdf filter=lfs diff=lfs merge=lfs -text
+books/沪教版数学必修第二册.pdf filter=lfs diff=lfs merge=lfs -text
+books/沪教版数学必修第四册.pdf filter=lfs diff=lfs merge=lfs -text
